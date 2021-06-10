@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<style>
+			img {
+				height: 125px;
+				width: 125px;
+			}
+			.whiteBody {
+				background-color: white;
+			}
+			body {
+				background-color: black;
+				height: 100vh;
+			}
+			.blue-text {
+				color: blue;
+			}
+
+			.btn-success {
+				background-color: lightgreen;
+			}
+		</style>
+
+		<title>Hello, world!</title>
+	</head>
+
+	<body>
+		<div class="container w-50 whiteBody border border-dark align-content-center my-auto">
+			<!-- <div class="container w-50 whiteBody border border-dark align-self-center"> -->
+			<div class="row d-flex align-items-center">
+				<div class="col">
+					<h1 id="main-header d-flex justify-content-start">My Postcard</h1>
+				</div>
+				<div class="col d-flex justify-content-end">
+					<img src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<p>Look how awesome! This is a postcard that I created using HTML5 CSS3 and bootstrap during my 4Geeks Academy Course!</p>
+
+					<p>This is so cool, can't wait to start doing more stuff!</p>
+				</div>
+
+				<div class="col">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Some Name</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" />
+					</div>
+
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Some Email</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+					</div>
+
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Some Comment</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-4 mx-auto">
+					<button type="button" class="btn btn-light">Send My Postcard</button>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
